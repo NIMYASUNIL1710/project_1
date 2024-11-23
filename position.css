@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    color: bisque;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.static-box{
+    position: static;
+}
+.relative-box{
+    position: relative;
+    top:10px;
+    left:10px;
+    
+}
+.absolute-box{
+    position: absolute;
+    top:10px;
+    right:10px;
+    
+}
+.fixed-box{
+    position: fixed;
+    top:10px;
+    left: 1500px;
+    
+}
+.sticky-box{
+    position: sticky;
+    /* position: -webkit-sticky;  //for safari*/
+    top:0px;
+    width: fit-content;
+    
+}
+.container{
+    height: 500px;
+    overflow-y: scroll;
+    border:2px solid black;
+    padding: 10px;
+}
